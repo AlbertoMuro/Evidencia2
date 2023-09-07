@@ -7,8 +7,8 @@ def marco1():
     
     inner_frame_layout = [
         [sg.Text("Ingresa la contraseña", background_color="#ff375b", pad= (0,0), justification = "center")],
-        [sg.Input(key='PASSWORD', size=(20, 1))],
-        [sg.Button("Iniciar Sesion", key='LOGIN', size=(20, 1), button_color=("#ffffff", '#ff375b'), font=("Helvetica", 15), border_width=10)]
+        [sg.Input(key='PASSWORD', size=(15, 1), justification = "center")],
+        [sg.Button("Iniciar Sesion", key='LOGIN', size=(15, 1), button_color=("#ffffff", '#ff375b'), font=("Helvetica", 15), border_width=10)]
     ]
     inner_frame = sg.Frame("", inner_frame_layout, background_color='#ff375b', pad = (0,0))
 

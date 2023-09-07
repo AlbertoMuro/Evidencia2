@@ -4,10 +4,10 @@ import matplotlib.pyplot as plt
 
 def marco4():
     texto2 = sg.Text("Mapas", key='TEXT2', size=(920, 1), background_color='#ff375b', font=("Helvetica", 30), justification='center', border_width=10)
-    texto3 = sg.Button("Mapa 1", key='BUTTON3', size=(70, 1), button_color=("#ffffff", '#ff375b'), font=("Helvetica", 15), border_width=10)
-    texto4 = sg.Button("Mapa 2", key='BUTTON4', size=(70, 1), button_color=("#ffffff", '#ff375b'), font=("Helvetica", 15), border_width=10)
-    texto5 = sg.Button("Mapa 3", key='BUTTON5', size=(70, 1), button_color=("#ffffff", '#ff375b'), font=("Helvetica", 15), border_width=10)
-    texto6 = sg.Button("Mapa 4", key='BUTTON6', size=(70, 1), button_color=("#ffffff", '#ff375b'), font=("Helvetica", 15), border_width=10)
+    texto3 = sg.Button("Praga1", key='BUTTON3', size=(70, 1), button_color=("#ffffff", '#ff375b'), font=("Helvetica", 15), border_width=10)
+    texto4 = sg.Button("Praga2", key='BUTTON4', size=(70, 1), button_color=("#ffffff", '#ff375b'), font=("Helvetica", 15), border_width=10)
+    texto5 = sg.Button("Praga3", key='BUTTON5', size=(70, 1), button_color=("#ffffff", '#ff375b'), font=("Helvetica", 15), border_width=10)
+    texto6 = sg.Button("Praga5", key='BUTTON6', size=(70, 1), button_color=("#ffffff", '#ff375b'), font=("Helvetica", 15), border_width=10)
     texto7 = sg.Text("Análisis Airbnb", key='TEXT7', size=(30, 1), background_color = "#fff", text_color = "#ff375b", font=("Helvetica", 20), justification='left', border_width=10)
     espacio_blanco1 = sg.Text("", size=(40, 1), background_color="#fff")
     espacio_blanco2 = sg.Text("", size=(40, 1), background_color="#fff")

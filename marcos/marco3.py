@@ -4,10 +4,10 @@ import matplotlib.pyplot as plt
 
 def marco3():
     texto2 = sg.Text("Gráficos", key='TEXT2', size=(920, 1), background_color='#ff375b', font=("Helvetica", 30), justification='center', border_width=10)
-    texto3 = sg.Button("Gráfico 1", key='BUTTON3', size=(40, 5), button_color=("#ffffff", '#ff375b'), font=("Helvetica", 15), border_width=10)
-    texto4 = sg.Button("Gráfico 2", key='BUTTON4', size=(40, 5), button_color=("#ffffff", '#ff375b'), font=("Helvetica", 15), border_width=10)
-    texto5 = sg.Button("Gráfico 3", key='BUTTON5', size=(40, 5), button_color=("#ffffff", '#ff375b'), font=("Helvetica", 15), border_width=10)
-    texto6 = sg.Button("Gráfico 4", key='BUTTON6', size=(40, 5), button_color=("#ffffff", '#ff375b'), font=("Helvetica", 15), border_width=10)
+    texto3 = sg.Button("Tiempo de respuesta", key='BUTTON3', size=(40, 5), button_color=("#ffffff", '#ff375b'), font=("Helvetica", 15), border_width=10)
+    texto4 = sg.Button("Tipo de propiedad", key='BUTTON4', size=(40, 5), button_color=("#ffffff", '#ff375b'), font=("Helvetica", 15), border_width=10)
+    texto5 = sg.Button("Precio", key='BUTTON5', size=(40, 5), button_color=("#ffffff", '#ff375b'), font=("Helvetica", 15), border_width=10)
+    texto6 = sg.Button("Rating Score", key='BUTTON6', size=(40, 5), button_color=("#ffffff", '#ff375b'), font=("Helvetica", 15), border_width=10)
     texto7 = sg.Text("Análisis Airbnb", key='TEXT7', size=(30, 1), background_color = "#fff", text_color = "#ff375b", font=("Helvetica", 20), justification='left', border_width=10)
     espacio_blanco1 = sg.Text("", size=(40, 1), background_color="#fff")
     espacio_blanco2 = sg.Text("", size=(40, 1), background_color="#fff")

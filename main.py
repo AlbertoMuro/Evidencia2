@@ -90,10 +90,62 @@ def main():
                     elif values['DESCRIPCION'] == "Precio":
                         
                         estadistica.price()
+                        
+                    elif values['DESCRIPCION'] == "Tasa de respuesta del anfitrión":
+                    
+                        estadistica.respuesta()
+                        
+                    elif values['DESCRIPCION'] == "Tasa de aceptación del anfitrión":
+                    
+                        estadistica.aceptacion()
+                        
+                    elif values['DESCRIPCION'] == "Capacidad de la propiedad":
+                    
+                        estadistica.capacidad()
+                        
+                    elif values['DESCRIPCION'] == "Puntuación rating":
+                    
+                        estadistica.rating()
+                        
+                    elif values['DESCRIPCION'] == "Puntuación precisión":
+                    
+                        estadistica.accuracy()
+                        
+                    elif values['DESCRIPCION'] == "Puntuación limpieza":
+                    
+                        estadistica.limpieza()
+                        
+                    elif values['DESCRIPCION'] == "Puntuación check in":
+                    
+                        estadistica.checkin()
+                        
+                    elif values['DESCRIPCION'] == "Puntuación ubicación":
+                    
+                        estadistica.ubicación()
+                        
+                    elif values['DESCRIPCION'] == "Puntuación valor de la propiedad":
+                    
+                        estadistica.propiedad()
+                        
+                    elif values['DESCRIPCION'] == "Puntuación comunicación host":
+                    
+                        estadistica.comunicacion()
+                        
+                    elif values['DESCRIPCION'] == "Mínimo de noches":
+                    
+                        estadistica.minimo()
+                        
+                    elif values['DESCRIPCION'] == "Máximo de noches":
+                    
+                        estadistica.maximo()
+                        
+                    elif values['DESCRIPCION'] == "Reviews por mes":
+                    
+                        estadistica.reviews()
 
                     elif event2 == "REGRESAR":
                         ventana_analisis.close()
-                        ventana_principal = sg.Window('MENU', [[marco2.marco2()]], size=(960, 540)) 
+                        ventana_principal = sg.Window('MENU', [[marco2.marco2()]], size=(960, 540))  
             elif event == 'INFORMACION':
                 ventana_principal.close()
                 ventana_principal = sg.Window('INFORMACION DEL EQUIPO', [[marco6.marco6()]], size=(960, 540))
